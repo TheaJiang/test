@@ -3,7 +3,8 @@ package test;
 import java.io.File;
 import java.io.IOException;
 
-import trial.InputStreamTrial;
+import main.InputStreamTrial;
+
 
 public class ExecutionClass {
 	public static void main(String[] args) throws IOException
