@@ -1,0 +1,9 @@
+<?xml version = "1.0"?>
+<project name = "my project" default = "simple-print">
+	<property name = "sitename" value = "www.tutorialspoint.com"/>
+	   
+   <target name = "simple-print">
+      <echo>Hello World - Welcome to Apache Ant!</echo>
+      <echo>${basedir};${java.vm.info};${sitename}</echo> 	
+   </target>
+</project>
